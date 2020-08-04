@@ -38,8 +38,8 @@
         $statement->execute(array(
             ":first_name"=>$_POST['first_name'],
             ":last_name"=>$_POST['last_name'],
-            ":email"=>$_POST['email'],
             ":headline"=>$_POST['headline'],
+            ":email"=>$_POST['email'],
             ":summary"=>$_POST['summary'],
             ":profile_id"=>$_GET['profile_id']
         ));
