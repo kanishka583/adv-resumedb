@@ -73,7 +73,7 @@
                 Headline:<br>
                 <input type="text" name="headline" id="headline" size="80" value="<?= $headline ?>"><br>
                 Summary:<br>
-                <textarea name="summary" id="summary" cols="80" rows="8"><?= $summary ?></textarea><br><br>
+                <textarea name="summary" id="summary" cols="80" rows="8"><?= $summary ?></textarea><br>
                 <input type="submit" value="Save" name="Save">
                 <input type="submit" value="Cancel" name="Cancel" onclick="location.replace('index.php');return false">
             </form>
